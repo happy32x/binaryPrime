@@ -40,7 +40,7 @@ function listePremier(nbr){
 }
 
 function reviewNumber(nbr){
-  nbr>1 || select.value === "binaire" ? oparate(nbr) : warning("Liste non disponible")
+  nbr>1 || select.value === "binaire" ? oparate(nbr) : warning("List not available")
 }
 
 function oparate(nbr){
@@ -52,7 +52,7 @@ function verify(){
   valueFocus()
   let val = value.value
   let nbr = parseInt(val)
-  !isNaN(nbr) ? reviewNumber(nbr) : val !== '' && !/[\s*]/.test(val) ? warning("Element non pris en charge") : null
+  !isNaN(nbr) ? reviewNumber(nbr) : val !== '' && !/[\s*]/.test(val) ? warning("Element not supported") : null
 }
 
 function keyTrigger(e){              
