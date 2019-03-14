@@ -3,3 +3,7 @@
 # binaryPrime
 
 convert a number to binary and display the list of prime numbers
+
+# webSite
+
+https://happy32x.github.io/binaryPrime/
